@@ -1,0 +1,269 @@
+body{
+    font-family: 'librefranklin-regular' sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-image: url(fire\ background\ 3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+
+.header-top{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+    position: relative;
+    
+
+}
+
+header img{
+    height: 60px;
+    width: auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    margin-left: 60px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 10px;
+    right: 5%;   
+}
+
+.container{
+    
+    background-color: whitesmoke;
+    width: 75%;
+    margin: auto;
+} 
+
+
+.header-nav li{
+    display: inline-block;
+    letter-spacing: 3px;
+    margin-right: 15px;
+    
+}
+
+.header-nav a{
+    text-transform: uppercase;
+    color: rgb(163, 162, 162);
+    text-decoration: none;
+    list-style: none;  
+}
+
+.header-nav a:hover{
+    transition: color .3s linear;
+    color: red;
+}
+
+.header-banner{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: block;
+    
+}
+
+.band-card{
+    width: 100%;
+    height: auto;
+    
+}
+
+.band-article{
+    padding-left: 6.5%;
+    padding-top: 6.5%;
+    width: 40%;
+    float: left;
+
+}
+
+.description-container{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    color: rgb(34, 34, 34);
+    
+    
+}
+
+.description-container p{
+    font-size: 1em;
+    text-align: left;
+    color: rgb(211, 211, 211);
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+.title-description{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: rgb(255, 60, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.band-article{
+    padding-bottom: 5%;
+    
+}
+
+.band-article h3{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color: silver;
+    background: rgb(37, 37, 37);
+    padding: 6px;  
+    text-align: center;
+    
+}
+
+.band-article p{
+    background: rgb(204, 204, 204);
+    padding: 10px;
+}
+
+.band-article h4{
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+}
+
+.agenda{
+    text-align: center;
+    padding: 25px;
+   
+    
+}
+
+.agenda ul{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.agenda h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: rgb(226, 60, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.agenda li{
+    list-style: none;
+    text-align: center;
+    margin-right: 14.5%;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: silver;   
+    
+}
+
+.agenda{
+    background-color: rgb(34, 34, 34); 
+    padding-bottom: 25px;
+}
+
+.color-number{
+    color: rgb(226, 60, 2);
+}
+
+.line{
+    border-top: 1px black solid;
+    
+}
+
+.email{
+    height: 175px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    position: relative;
+}
+
+.email {
+    display: inline-block;
+    font-size: 1em;
+    padding-top: 40px;
+}
+
+.email h1{
+    margin-left: 100px;
+    color: rgb(240, 239, 239);
+    background: rgba(0, 0, 0, .3);
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.insert-email{
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    background-color: rgba(0, 0, 0, .6);
+    border: 3px solid orangered;
+    height: 65px;
+    width: 250px;
+}
+
+.button-email{
+    border: 3px solid orangered;
+    background-color: orangered;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    height: 73px;
+    width: 100px;
+    right: 12%;
+    top: 30%;
+}
+
+footer{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: silver;
+    background-color: black;
+    position: relative;
+}
+
+footer span{
+    color:rgb(230, 64, 4)
+}
+
+footer p:nth-child(1), p:nth-child(2){
+    margin-top: 25px;
+
+}
+
+footer img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: auto;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
